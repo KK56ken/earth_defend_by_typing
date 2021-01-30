@@ -1,15 +1,39 @@
-document.onkeydown = function(e) {
-    var keyCode = false;
- 
-    if (e) event = e;
- 
-    if (event) {
-        if (event.keyCode) {
-            keyCode = event.keyCode;
-        } else if (event.which) {
-            keyCode = event.which;
-        }
-    }
- 
-    alert(keyCode);
-};
+#typing_word_j{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#typing_word{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+p{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+body{
+    background: url(../images/back.jpg) fixed;
+}
